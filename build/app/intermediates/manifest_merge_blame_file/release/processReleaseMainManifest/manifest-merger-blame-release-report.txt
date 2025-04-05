@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ecommerce_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:5:5-65
+12-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:5:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:6:5-60
+14-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:6:19-57
+15
+16    <uses-permission
+16-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:7:5-81
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:7:22-78
+18        android:maxSdkVersion="28" />
+18-->[:camera_android_camerax] /Users/rezaflutt/ecommerce_app/build/camera_android_camerax/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:9-35
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:8:5-80
+19-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:8:22-77
+20
+21    <!-- Queries for Intent -->
+22    <queries>
+22-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:44:5-49:15
+23        <intent>
+23-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:45:9-48:18
+24            <action android:name="android.intent.action.PROCESS_TEXT" />
+24-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:46:13-73
+24-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:46:21-70
+25
+26            <data android:mimeType="text/plain" />
+26-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:47:13-51
+26-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:47:19-48
+27        </intent>
+28    </queries>
+29
+30    <uses-feature android:name="android.hardware.camera.any" />
+30-->[:camera_android_camerax] /Users/rezaflutt/ecommerce_app/build/camera_android_camerax/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-64
+30-->[:camera_android_camerax] /Users/rezaflutt/ecommerce_app/build/camera_android_camerax/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:19-61
+31
+32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+32-->[:camera_android_camerax] /Users/rezaflutt/ecommerce_app/build/camera_android_camerax/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:5-71
+32-->[:camera_android_camerax] /Users/rezaflutt/ecommerce_app/build/camera_android_camerax/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:22-68
+33
+34    <permission
+34-->[androidx.core:core:1.13.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.ecommerce_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.13.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.13.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.ecommerce_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.13.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.13.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+39
+40    <application
+40-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:10:5-41:19
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.13.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+42        android:extractNativeLibs="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:12:9-43
+44        android:label="ecommerce_app" >
+44-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:11:9-38
+45
+46        <!-- Main Activity -->
+47        <activity
+47-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:15:9-35:20
+48            android:name="com.example.ecommerce_app.MainActivity"
+48-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:16:13-41
+49            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+49-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:21:13-163
+50            android:exported="true"
+50-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:17:13-36
+51            android:hardwareAccelerated="true"
+51-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:22:13-47
+52            android:launchMode="singleTop"
+52-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:18:13-43
+53            android:taskAffinity=""
+53-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:19:13-36
+54            android:theme="@style/LaunchTheme"
+54-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:20:13-47
+55            android:windowSoftInputMode="adjustResize" >
+55-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:23:13-55
+56
+57            <!-- Meta-data for Flutter -->
+58            <meta-data
+58-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:26:13-28:57
+59                android:name="io.flutter.embedding.android.NormalTheme"
+59-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:27:17-72
+60                android:resource="@style/NormalTheme" />
+60-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:28:17-54
+61
+62            <!-- Intent Filter for Launcher -->
+63            <intent-filter>
+63-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:31:13-34:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:32:17-69
+64-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:32:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:33:17-77
+66-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:33:27-74
+67            </intent-filter>
+68        </activity>
+69
+70        <!-- Meta-data for Flutter Embedding -->
+71        <meta-data
+71-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:38:9-40:33
+72            android:name="flutterEmbedding"
+72-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:39:13-44
+73            android:value="2" />
+73-->/Users/rezaflutt/ecommerce_app/android/app/src/main/AndroidManifest.xml:40:13-30
+74
+75        <service
+75-->[androidx.camera:camera-camera2:1.4.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/75157b45803b32360f0113fb9e3d6360/transformed/jetified-camera-camera2-1.4.1/AndroidManifest.xml:24:9-33:19
+76            android:name="androidx.camera.core.impl.MetadataHolderService"
+76-->[androidx.camera:camera-camera2:1.4.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/75157b45803b32360f0113fb9e3d6360/transformed/jetified-camera-camera2-1.4.1/AndroidManifest.xml:25:13-75
+77            android:enabled="false"
+77-->[androidx.camera:camera-camera2:1.4.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/75157b45803b32360f0113fb9e3d6360/transformed/jetified-camera-camera2-1.4.1/AndroidManifest.xml:26:13-36
+78            android:exported="false" >
+78-->[androidx.camera:camera-camera2:1.4.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/75157b45803b32360f0113fb9e3d6360/transformed/jetified-camera-camera2-1.4.1/AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.camera:camera-camera2:1.4.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/75157b45803b32360f0113fb9e3d6360/transformed/jetified-camera-camera2-1.4.1/AndroidManifest.xml:30:13-32:89
+80                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+80-->[androidx.camera:camera-camera2:1.4.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/75157b45803b32360f0113fb9e3d6360/transformed/jetified-camera-camera2-1.4.1/AndroidManifest.xml:31:17-103
+81                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+81-->[androidx.camera:camera-camera2:1.4.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/75157b45803b32360f0113fb9e3d6360/transformed/jetified-camera-camera2-1.4.1/AndroidManifest.xml:32:17-86
+82        </service>
+83
+84        <provider
+84-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:9-17:20
+85            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+85-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-82
+86            android:authorities="com.example.ecommerce_app.flutter.image_provider"
+86-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-74
+87            android:exported="false"
+87-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:13-37
+88            android:grantUriPermissions="true" >
+88-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:13-47
+89            <meta-data
+89-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:13-16:75
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:17-67
+91                android:resource="@xml/flutter_image_picker_file_paths" />
+91-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:17-72
+92        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+93        <service
+93-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:19:9-31:19
+94            android:name="com.google.android.gms.metadata.ModuleDependencies"
+94-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:20:13-78
+95            android:enabled="false"
+95-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:13-36
+96            android:exported="false" >
+96-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:13-37
+97            <intent-filter>
+97-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:13-26:29
+98                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+98-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:17-94
+98-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:25-91
+99            </intent-filter>
+100
+101            <meta-data
+101-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:13-30:36
+102                android:name="photopicker_activity:0:required"
+102-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:17-63
+103                android:value="" />
+103-->[:image_picker_android] /Users/rezaflutt/ecommerce_app/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:17-33
+104        </service>
+105
+106        <uses-library
+106-->[androidx.window:window:1.2.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+107            android:name="androidx.window.extensions"
+107-->[androidx.window:window:1.2.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+108            android:required="false" />
+108-->[androidx.window:window:1.2.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+109        <uses-library
+109-->[androidx.window:window:1.2.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+110            android:name="androidx.window.sidecar"
+110-->[androidx.window:window:1.2.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+111            android:required="false" />
+111-->[androidx.window:window:1.2.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+112
+113        <provider
+113-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+114            android:name="androidx.startup.InitializationProvider"
+114-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+115            android:authorities="com.example.ecommerce_app.androidx-startup"
+115-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+116            android:exported="false" >
+116-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+117            <meta-data
+117-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+118-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+119                android:value="androidx.startup" />
+119-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+120            <meta-data
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+121                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+122                android:value="androidx.startup" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+123        </provider>
+124
+125        <receiver
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+126            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+127            android:directBootAware="false"
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+128            android:enabled="true"
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+129            android:exported="true"
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+130            android:permission="android.permission.DUMP" >
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+132                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+135                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+138                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+141                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rezaflutt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+142            </intent-filter>
+143        </receiver>
+144    </application>
+145
+146</manifest>
